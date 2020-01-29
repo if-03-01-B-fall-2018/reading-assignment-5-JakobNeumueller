@@ -1,0 +1,102 @@
+#ContainerLeft
+{
+  width: 225px;
+  height: 143px;
+  background-image: url('Logo.jpg');
+
+}
+
+body{
+  background: white;
+}
+
+strong{
+  color: orange;
+}
+
+.btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 200px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #4CAF50;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: white;
+  color: black;
+}
+
+.sidenav {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1C1C1C;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top: 100px;
+}
+
+.sidenav a {
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+}
+
+.sidenav a:hover {
+color: #f1f1f1;
+}
+
+.main {
+  background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 160px; /*gleich wie sidenav */
+  font-size: 20px;
+  padding: 0px 10px;
+  padding-top: 80px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+
+.navbar {
+  position: fixed;
+  overflow: hidden;
+  background-color: #1C1C1C;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 25px 40px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: red;
+}

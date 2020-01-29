@@ -1,0 +1,127 @@
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#grad1 {
+  height: 200px;
+  background-color: red;
+  background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+}
+
+#gallery {
+  position: relative;
+}
+
+#gallery figure {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#gallery figure:last-of-type {
+  position: relative;
+}
+
+#gallery figcaption {
+  position: absolute;
+  left: 20em;
+  bottom: -3em;
+  z-index: 2;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 150%;
+}
+
+#gallery figure {
+  animation: wechseln 15s infinite;
+}
+
+ @keyframes wechseln {
+   0% {opacity: 0;}
+   20% {opacity: 1;}
+   40% {opacity: 1;}
+   60% {opacity: 0;}
+   100% {opacity: 0;}
+ }
+
+ #gallery figure:nth-of-type(2) {
+   animation-delay: 5s;
+   opacity: 0;
+ }
+
+ #gallery figure:nth-of-type(3) {
+   animation-delay: 10s;
+   opacity: 0;
+ }
+
+ #HeaderBig
+ {
+   width: auto;
+   height: 2000;
+   background: black;
+   font-family: arial, sans-serif;
+   font-size: 30px;
+   color: white;
+   padding-left: 10px;
+ }
+
+ #first
+ {
+   width: auto;
+   height: auto;
+   text-align: right;
+   padding-right: 1200px;
+   background: black;
+   padding-top: 380px;
+   padding-bottom: 380px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: white;
+   font-size: 550%;
+   font-weight: bold;
+   padding-left: 50px;
+ }
+
+ h1{
+   font-size: 100px;
+ }
+
+.firstBackground{
+  background-color: black;
+}
+
+/* change the background color */
+.bg-company-custom {
+    background-color: #1C1C1C !important;
+    font-size: 180%;
+}
+
+body{
+  background-color: #1C1C1C;
+}
+
+.navbar {
+    min-height: 80px;
+}
